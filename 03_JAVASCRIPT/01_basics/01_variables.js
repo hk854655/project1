@@ -12,10 +12,10 @@ accountEmail = "@gmail.com";
 // accountId = 6543674854354;  // not allow because const cannot changed
 
 
-// console.log(accountId);
-// console.log(accountEmail);
-// console.log(accountPassoword);
-// console.log(account);
-// console.log(accountEmail);
+console.log(accountId);
+console.log(accountEmail);
+console.log(accountPassoword);
+console.log(account);
+console.log(accountEmail);
 
 console.table([accountEmail, accountId, accountPassoword, account]);
