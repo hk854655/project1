@@ -53,6 +53,7 @@ for (const i of tea) {
     if (i === "herbal tea") {
         continue;
     }
+    preferredTeas.push(i)
 }
 // console.log(preferredTeas);
 
@@ -77,6 +78,7 @@ let citiesPopulation = {
 let cityPopulations = {}; 
 for (const key in citiesPopulation) {
     if (key === "Berlin") {
+        break;
     }
     cityPopulations[key] = citiesPopulation[key]; 
 }
@@ -99,6 +101,9 @@ let worldCities = {
     "Berlin": 3500000,
     "Paris": 2200000
 };
+// console.log(worldCities["Sydney"]);
+
+
 let largeCities = {};
 for (const key in worldCities) {
     if (worldCities[key] < 3000000) {
@@ -120,7 +125,7 @@ allTeas.forEach(function (tea) {    // ForEach doesn't support "break" keyword.
     }
 availableTeas.push(tea);
 });
-// console.log(availableTeas);
+console.log(availableTeas);
 
 /* 
 8. Write a forEach loop that iterates through the array ["Berlin", "Tokyo", "Sydney", "Paris"]. 
@@ -163,4 +168,4 @@ for (const element of teaType) {
     }
     shortTeas.push(element)
 }
-console.log(shortTeas);
+// console.log(shortTeas);

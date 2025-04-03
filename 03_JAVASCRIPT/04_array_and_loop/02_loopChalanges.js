@@ -8,6 +8,7 @@ while (i <= 5) {
     i ++;
 }
 // console.log(sum);
+
 /*
 sum = sum + i
 sum = 0+1 = 1;
@@ -58,6 +59,8 @@ do {
  stores the results in a new array named multipliedNumbers.
 */
 let number = [2, 4, 6];
+// console.log(number[2]);
+
 let multipliedNumbers = [];
 // console.log(number[0])
 // console.log(number.length)
@@ -74,6 +77,6 @@ let cities = ['Paris', 'New York', 'Tokyo', 'London'];
 let cityList = [];
 for (let i = 0; i < cities.length; i++) {
     cityList.push(cities[i])
-    // cityList.push(cities[i] + 'city')
+    cityList.push(cities[i] + 'city')
 }
-console.log(cityList);
+// console.log(cityList);

@@ -83,3 +83,5 @@ Check if "London" is in the array and store the result in a variable named isLon
 let cityBucketList = ['Kyoto', 'London', 'Cape Town', 'Vancouver']
 let isLondonInList = cityBucketList.includes('London')
 console.log(isLondonInList);
+
+
